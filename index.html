@@ -11,13 +11,13 @@
     <main class="pt-5 mb-5">
         <div class="">
             <header>
-                <nav class="flex justify-between items-center mx-5 px-5 py-1.5 bg-[#184233] rounded-md text-white">
-                    <div class="flex items-center gap-20">
-                        <div id="logo">
+                <nav class="flex flex-col md:flex-row justify-between items-center mx-5 px-5 py-1.5 bg-[#184233] rounded-md text-white">
+                    <div class="flex flex-col md:flex-row items-center gap-5 md:gap-20">
+                        <div id="logo" class="mb-4 md:mb-0">
                             <img src="" alt="">
-                            <span class="text-3xl font-bold font-ephesis text-[#FFC800]">The <span class="text-5xl">8</span>te</span>
+                            <span class="text-2xl md:text-3xl font-bold font-ephesis text-[#FFC800]">The <span class="text-3xl md:text-5xl">8</span>te</span>
                         </div>
-                        <ul class="flex gap-10 font-medium">
+                        <ul class="flex flex-col md:flex-row gap-5 md:gap-10 font-medium text-center md:text-left">
                             <li><a href="" class="hover:border-b-4 hover:text-[#FFC800]">Home</a></li>
                             <li><a href="" class="hover:border-b-4 hover:text-[#FFC800]">Menu</a></li>
                             <li><a href="/about.html" class="hover:border-b-4 hover:text-[#FFC800]">About us</a></li>
@@ -25,7 +25,7 @@
                         </ul>
                     </div>
     
-                    <div class="flex gap-1">
+                    <div class="flex gap-1 mt-4 md:mt-0">
                         <div class=" flex items-center justify-center border-2 border-gray-500 rounded-full w-10 h-10 hover:border-[#FFC800]">
                             <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
                                 viewBox="2 2 20 20">
@@ -58,91 +58,90 @@
                 </nav>
             </header>
     
-            <section id="hero-section" class="pt-10 px-28">
-                <div class="flex justify-between items-center">
-                    <p class="text-7xl font-bold font-ephesis">
+            <section id="hero-section" class="pt-10 px-5 md:px-28">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+                    <p class="text-4xl md:text-7xl font-bold font-ephesis text-center md:text-left">
                         A Wholesome <br>
                         Dinning <br>
                         Experience
                     </p>
 
-                    <div>
-                        <img src="/assets/img/Untitled design (1).png" alt="" class="w-150">
+                    <div class="w-full md:w-auto flex justify-center">
+                        <img src="/assets/img/Untitled design (1).png" alt="Restaurant hero image" class="w-full max-w-md md:max-w-none">
                     </div>
                 </div>
     
-                <div class="flex justify-between mt-5">
-                    <div>
-                        <h3 class="font-ephesis text-4xl font-bold">Open hours</h3>
-                        <ul>
+                <div class="flex flex-col md:flex-row justify-between mt-5 gap-8">
+                    <div class="text-center md:text-left">
+                        <h3 class="font-ephesis text-2xl md:text-4xl font-bold">Open hours</h3>
+                        <ul class="text-sm md:text-base">
                             <li><span>Mon-Sat:</span> 11:00am - 10:00pm</li>
                             <li><span>Sunday:</span> 04:00pm - 09:00pm</li>
                         </ul>
                     </div>
 
-                    <!-- <div>
-                        <img src="/assets/img/Untitled design (1).png" alt="" class="w-150">
-                    </div> -->
-
-                    <div class="flex items-center">
-                        <div>
-                            <img src="/assets/img/Untitled design (4).png" alt="" class="w-28">
-                        </div>
-                        <div>
-                            <img src="/assets/img/Untitled design (3).png" alt="" class="w-28">
+                    <div class="flex items-center justify-center order-first md:order-last">
+                        <div class="flex gap-2 md:gap-4">
+                            <div>
+                                <img src="/assets/img/Untitled design (4).png" alt="Restaurant decoration" class="w-16 md:w-28">
+                            </div>
+                            <div>
+                                <img src="/assets/img/Untitled design (3).png" alt="Restaurant decoration" class="w-16 md:w-28">
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
     
-            <section class="flex justify-end px-28">
-                <div class="flex gap-10 text-3xl font-bold">
+            <section class="flex justify-center px-5 md:px-28">
+                <div class="flex flex-col md:flex-row gap-6 md:gap-10 text-2xl md:text-3xl font-bold text-center md:text-left">
                     <div>
                         <h2>500+</h2>
-                        <p class="text-2xl font-medium">Food Items</p>
+                        <p class="text-lg md:text-2xl font-medium">Food Items</p>
                     </div>
 
                     <div>
                         <h2>1k+</h2>
-                        <p class="text-2xl font-medium">Happy Customers</p>
+                        <p class="text-lg md:text-2xl font-medium">Happy Customers</p>
                     </div>
 
                     <div>
                         <h2>5000k+</h2>
-                        <p class="text-2xl font-medium">Orders</p>
+                        <p class="text-lg md:text-2xl font-medium">Orders</p>
                     </div>
                 </div>
             </section>
         </div>
     </main>
 
-    <footer class="bg-black py-10 text-white px-28 flex justify-between items-center">
-        <div>
-            <div id="logo">
-                <img src="" alt="">
-                <span class="text-3xl font-bold font-ephesis text-[#FFC800]">The <span class="text-5xl">8</span>te</span>
+    <footer class="bg-black py-10 text-white px-5 md:px-28">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-center md:text-left">
+                <div id="logo" class="mb-2">
+                    <img src="" alt="">
+                    <span class="text-2xl md:text-3xl font-bold font-ephesis text-[#FFC800]">The <span class="text-3xl md:text-5xl">8</span>te</span>
+                </div>
+
+                 <p class="text-xl md:text-2xl font-bold">Team VIII</p>
             </div>
 
-             <p class="text-2xl font-bold">Team VIII</p>
-        </div>
+            <ul class="flex flex-col md:flex-row gap-4 md:gap-10 font-medium text-center md:text-left">
+                <li><a href="" class="hover:border-b-4 hover:text-[#FFC800]">Home</a></li>
+                <li><a href="" class="hover:border-b-4 hover:text-[#FFC800]">Menu</a></li>
+                <li><a href="/about.html" class="hover:border-b-4 hover:text-[#FFC800]">About us</a></li>
+                <li><a href="" class="hover:border-b-4 hover:text-[#FFC800]">Contact us</a></li>
+            </ul>
 
-        <ul class="flex gap-10 font-medium">
-            <li><a href="" class="hover:border-b-4 hover:text-[#FFC800]">Home</a></li>
-            <li><a href="" class="hover:border-b-4 hover:text-[#FFC800]">Menu</a></li>
-            <li><a href="/about.html" class="hover:border-b-4 hover:text-[#FFC800]">About us</a></li>
-            <li><a href="" class="hover:border-b-4 hover:text-[#FFC800]">Contact us</a></li>
-        </ul>
-
-        <div>
-            <a href="https://github.com/JS-Combined-Team-VIII" class="hover:text-[#FFC800]">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="2 2 20 20">
-                    <path fill-rule="evenodd"
-                        d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.6 9.6 0 0 1 2.496-.336 9.6 9.6 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2"
-                        clip-rule="evenodd"></path>
-                </svg>
-            </a>
+            <div>
+                <a href="https://github.com/JS-Combined-Team-VIII" class="hover:text-[#FFC800]">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="2 2 20 20">
+                        <path fill-rule="evenodd"
+                            d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.6 9.6 0 0 1 2.496-.336 9.6 9.6 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </div>
         </div>
-       
     </footer>
     
 </body>
