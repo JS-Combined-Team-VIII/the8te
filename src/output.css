@@ -223,6 +223,9 @@
   .top-20 {
     top: calc(var(--spacing) * 20);
   }
+  .right-3 {
+    right: calc(var(--spacing) * 3);
+  }
   .right-4 {
     right: calc(var(--spacing) * 4);
   }
