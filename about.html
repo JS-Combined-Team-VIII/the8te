@@ -10,21 +10,53 @@
 <body class="bg-[#f5f1ea] text-gray-800">
 
   <!-- NAVBAR -->
-  <header class="bg-[#184233] shadow">
-    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-      <h1 class="text-lg md:text-xl font-semibold tracking-wide text-[#FFC800]">
-        THE 8TE
-      </h1>
-
-      <nav class="hidden md:flex space-x-6 text-sm font-medium text-white">
-        <a href="index.html" class="hover:text-[#FFC800]">HOME</a>
-        <a href="about.html" class="hover:text-[#FFC800]">ABOUT</a>
-        <a href="menu.html" class="hover:text-[#FFC800]">MENU</a>
-        <a href="#" class="hover:text-[#FFC800]">PRIVATE EVENTS</a>
-        <a href="#" class="hover:text-[#FFC800]">CONTACT</a>
-      </nav>
-    </div>
-  </header>
+             <header>
+                <nav class="flex flex-col md:flex-row justify-between items-center mx-5 px-5 py-1.5 bg-[#184233] rounded-md text-white">
+                    <div class="flex flex-col md:flex-row items-center gap-5 md:gap-20">
+                        <div id="logo" class="mb-4 md:mb-0">
+                            <img src="" alt="">
+                            <span class="text-2xl md:text-3xl font-bold font-ephesis text-[#FFC800]">The <span class="text-3xl md:text-5xl">8</span>te</span>
+                        </div>
+                        <ul class="flex flex-col md:flex-row gap-5 md:gap-10 font-medium text-center md:text-left">
+                            <li><a href="index.html" class="hover:border-b-4 hover:text-[#FFC800]">Home</a></li>
+                            <li><a href="menu.html" class="hover:border-b-4 hover:text-[#FFC800]">Menu</a></li>
+                            <li><a href="about.html" class="hover:border-b-4 hover:text-[#FFC800]">About us</a></li>
+                            <li><a href="contact.html" class="hover:border-b-4 hover:text-[#FFC800]">Contact us</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="flex gap-1 mt-4 md:mt-0">
+                        <div class=" flex items-center justify-center border-2 border-gray-500 rounded-full w-10 h-10 hover:border-[#FFC800]">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
+                                viewBox="2 2 20 20">
+                                <path
+                                    d="M10.5 19c1.98 0 3.81-.69 5.25-1.83L20 21.42l1.41-1.41-4.25-4.25a8.47 8.47 0 0 0 1.83-5.25c0-4.69-3.81-8.5-8.5-8.5S2 5.81 2 10.5 5.81 19 10.5 19m0-15c3.58 0 6.5 2.92 6.5 6.5S14.08 17 10.5 17 4 14.08 4 10.5 6.92 4 10.5 4">
+                                </path>
+                            </svg>
+                        </div>
+    
+                        <div class=" flex items-center justify-center  border-2 border-gray-500  rounded-full w-10 h-10 hover:border-[#FFC800]">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
+                                viewBox="2 2 20 20">
+                                <path
+                                    d="M12 12c2.76 0 5-2.24 5-5s-2.24-5-5-5-5 2.24-5 5 2.24 5 5 5m0-8c1.65 0 3 1.35 3 3s-1.35 3-3 3-3-1.35-3-3 1.35-3 3-3M4 22h16c.55 0 1-.45 1-1v-1c0-3.86-3.14-7-7-7h-4c-3.86 0-7 3.14-7 7v1c0 .55.45 1 1 1m6-7h4c2.76 0 5 2.24 5 5H5c0-2.76 2.24-5 5-5">
+                                </path>
+                            </svg>
+                        </div>
+    
+                        <div class=" flex items-center justify-center  border-2 border-gray-500  rounded-full w-10 h-10 hover:border-[#FFC800]">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
+                                viewBox="2 2 20 20">
+                                <path
+                                    d="M3 20c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V7c0-.16-.05-.31-.11-.44s-1.72-3.45-1.72-3.45A2 2 0 0 0 17.38 2H6.62c-.76 0-1.45.42-1.79 1.11L3.11 6.56c-.07.14-.11.29-.11.45v13Zm2 0V8h14v12zM17.38 4l1 2H5.62l1-2z">
+                                </path>
+                                <path d="M12 13c-1.65 0-3-1.35-3-3H7c0 2.76 2.24 5 5 5s5-2.24 5-5h-2c0 1.65-1.35 3-3 3">
+                                </path>
+                            </svg>
+                        </div>
+                    </div>
+                </nav>
+            </header>
 
   <!-- HERO -->
   <section class="relative">
@@ -48,7 +80,7 @@
   <section class="max-w-7xl mx-auto px-4 py-10 md:py-14 grid md:grid-cols-2 gap-10 items-center">
     <div class="space-y-5 text-lg leading-relaxed">
       <p>
-       At The 8te, we believe dining is more than just a meal — it’s an experience.
+       At The 8te, we believe dining is more than just a meal — its an experience.
         Rooted in passion and driven by creativity, we bring together bold flavors, fresh ingredients, and refined techniques to craft dishes that leave a lasting impression.
 
       </p>
@@ -82,27 +114,35 @@
   </section>
 
   <!-- FOOTER -->
-  <footer class="bg-[#184233] text-white py-10">
-    <div class="max-w-7xl mx-auto px-auto grid md:grid-cols-2 gap-8 text-sm">
+  <footer class="bg-black py-10 text-white px-5 md:px-28">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+            <div class="text-center md:text-left">
+                <div id="logo" class="mb-2">
+                    <img src="" alt="">
+                    <span class="text-2xl md:text-3xl font-bold font-ephesis text-[#FFC800]">The <span class="text-3xl md:text-5xl">8</span>te</span>
+                </div>
 
-      <div class="text-lg">
-        <h3 class="font-semibold text-lg mb-2">Contact Info</h3>
-        <p class="hover:text-[#FFC800]">Peakfield street Jos</p>
-        <p class="hover:text-[#FFC800]">Jos, Nigeria</p>
-        <p class="hover:text-[#FFC800]">+234 091 6951 3412</p>
-      </div>
+                 <p class="text-xl md:text-2xl font-bold">Team VIII</p>
+            </div>
 
-      <div>
-        <h3 class="font-semibold text-lg mb-2">Social Us</h3>
-        <div class="flex text-lg space-x-3">
-          <span class="hover:text-[#FFC800]">Facebook</span>
-          <span class="hover:text-[#FFC800]">Twitter</span>
-          <span class="hover:text-[#FFC800]">Instagram</span>
+            <ul class="flex flex-col md:flex-row gap-4 md:gap-10 font-medium text-center md:text-left">
+                <li><a href="index.html" class="hover:border-b-4 hover:text-[#FFC800]">Home</a></li>
+                <li><a href="menu.html" class="hover:border-b-4 hover:text-[#FFC800]">Menu</a></li>
+                <li><a href="about.html" class="hover:border-b-4 hover:text-[#FFC800]">About us</a></li>
+                <li><a href="contact.html" class="hover:border-b-4 hover:text-[#FFC800]">Contact us</a></li>
+            </ul>
+
+            <div>
+                <a href="https://github.com/JS-Combined-Team-VIII" class="hover:text-[#FFC800]">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="2 2 20 20">
+                        <path fill-rule="evenodd"
+                            d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.6 9.6 0 0 1 2.496-.336 9.6 9.6 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </div>
         </div>
-      </div>
-
-    </div>
-  </footer>
+    </footer>
 
 </body>
 </html>
